@@ -3,6 +3,7 @@ docker-compose files for interesting services
 
 <p><b>MONITORING</b>
 <br><a href="https://github.com/zakpatrik/docker-services/blob/main/uptime-kuma.yml">uptime kuma</a> -- <a href="https://raw.githubusercontent.com/zakpatrik/docker-services/main/uptime-kuma.yml">RAW</a>
+<br><a href="https://github.com/zakpatrik/docker-services/blob/main/goaccess-for-nginxproxymanager.yml">goaccess for nginx proxy manager</a> -- <a href="https://raw.githubusercontent.com/zakpatrik/docker-services/main/goaccess-for-nginxproxymanager.yml">RAW</a>
 
 
 
