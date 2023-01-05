@@ -1,0 +1,8 @@
+DOCKER:
+curl -sSL https://get.docker.com/ | CHANNEL=stable sh
+systemctl enable --now docker
+usermod -a -G docker $USER
+
+DOCKER-COMPOSE:
+curl -L https://github.com/docker/compose/releases/download/v2.15.0/docker-compose-linux-x86_64 > /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
