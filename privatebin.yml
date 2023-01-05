@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+    nginx-fpm-alpine:
+        image: privatebin/nginx-fpm-alpine
+        restart: always
+        read_only: true
+        # you need SSL proxy, the application does not work on HTTP
+        ports:
+            - '8080:8080'
+        volumes:
+            - './privatebin-data:/srv/data'
